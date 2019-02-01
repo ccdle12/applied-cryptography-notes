@@ -75,5 +75,5 @@ Denotes that all the sets in y have at least on preimage:
 
 A bijection is when each element in the set of X is mapped/transformed to an element in the set of Y.
 
-![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/Screen Shot 2019-02-01 at 13.45.41.png)
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/bijection-1.png)
 
