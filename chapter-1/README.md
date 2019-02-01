@@ -98,3 +98,7 @@ The inverse can be defined as:
 `g = f^-1`
 
 In cryptography bijections are used to encrypt a message. When we reverse a bijection we are decrypting a message.
+
+## One Way Functions
+
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/one-way-function-1.png)
