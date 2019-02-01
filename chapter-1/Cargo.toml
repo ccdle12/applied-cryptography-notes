@@ -1,0 +1,6 @@
+[package]
+name = "chapter-1"
+version = "0.1.0"
+authors = ["ccdle12 <chris.coverdale24@gmail.com>"]
+
+[dependencies]
