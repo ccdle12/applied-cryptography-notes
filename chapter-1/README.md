@@ -77,3 +77,5 @@ A bijection is when each element in the set of X is mapped/transformed to an ele
 
 ![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/bijection-1.png)
 
+The above image is not technically a bijection because all members of the set X must be transformed to each set of Y.
+
