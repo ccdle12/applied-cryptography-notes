@@ -1,4 +1,4 @@
-## 4 Main Goals of Cryptography
+## The Four Main Goals of Cryptography
 
 1. Confidentiality
 
@@ -21,12 +21,12 @@
 ### Sets
 Denoted as `X = {a, b, c}`
 
-In other words *X is a set containing a, b, c*
+In other words *X is a set containing a, b, c*.
 
 ### One way, 1-1, Trapdoor
-A function is defined by *x2 sets X and Y*
+A function is defined by *x2 sets X and Y*.
 
-A rule *f* assigns *each element of X to Y*
+A rule *f* assigns *each element of X to Y*.
 
 ```
 X(a) → Y(1)
@@ -37,11 +37,11 @@ Y is known as the Codomain
 ### Members
 `x ∈ X`
 
-The above means that *x is a member-of the set X*
+The above means that *x is a member-of the set X*.
 
 ### Images
 
-The image of X is the mapping in Y according to the rule *f*
+The image of X is the mapping in Y according to the rule *f*.
 
 The image y of x is noted as:
 
@@ -79,3 +79,22 @@ A bijection is when each element in the set of X is mapped/transformed to an ele
 
 The above image is not technically a bijection because all members of the set X must be transformed to each set of Y.
 
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/bijection-2.png)
+
+A bijection is when each element in the set of X is mapped/transformed to an element in the set of Y.
+
+The above image is a bijection that maps/transforms set of X to Y.
+
+*f* is the bijection from *X to Y*.
+
+`f(x) = y`
+
+G is bijection from Y to X.
+
+`g(y) = x`
+
+The inverse can be defined as:
+
+`g = f^-1`
+
+In cryptography bijections are used to encrypt a message. When we reverse a bijection we are decrypting a message.
