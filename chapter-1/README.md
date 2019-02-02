@@ -67,7 +67,7 @@ The preimage can be denoted as follows:
 
 `f(x) = y`
 
-Denotes that all the sets in y have at least on preimage:
+Denotes that all the sets in y have at least one preimage:
 
 `Im(f)`
 
