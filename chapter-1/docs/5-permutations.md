@@ -1,5 +1,7 @@
 ## Permutations
 
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/permuation-1.png)
+
 A permutation is a bijection to itself. Let S be a set `S = {1, 2, 3, 4, 5}`. 
 
 A permuation of S to itself can expressed as `p: S -> S`
