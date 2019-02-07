@@ -1,4 +1,5 @@
 mod datastructs;
+mod maths;
 use self::datastructs::Bijection;
 
 fn main() {}
@@ -41,5 +42,21 @@ mod tests {
         // f(x) = y | x^3 % pq = y
         // With only knowing - pq, y, 3, it is difficult to deduce x.
         assert_eq!(image, 1981394214);
+    }
+
+    #[test]
+    fn basic_euclidean_test() {
+        // Should find the greatest common divisor.
+        let a = super::maths::basic_euclidean(15, 10);
+        assert_eq!(a, 5);
+
+        let b = super::maths::basic_euclidean(35, 10);
+        assert_eq!(b, 5);
+
+        let c = super::maths::basic_euclidean(31, 2);
+        assert_eq!(c, 1);
+
+        let d = super::maths::basic_euclidean(81, 57);
+        assert_eq!(d, 3);
     }
 }
