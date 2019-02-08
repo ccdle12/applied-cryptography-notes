@@ -5,4 +5,5 @@
 3. [Eulers Totient](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/3-Eulers-Totient.md)
 4. [Bijections](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/4-bijection.md)
 5. [One Way Functions](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/5-one-way-functions.md)
-6. [Permutations](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/6-permutations.md)
+6. [Involutions](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/6-involutions.md)
+7. [Permutations](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/7-permutations.md)
