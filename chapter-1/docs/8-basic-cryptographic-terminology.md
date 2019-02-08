@@ -22,3 +22,20 @@ The cipher text space consists of the *alphabet of definition* that differs from
 An element of the *cipher text space* is known as a *cipher text message*.
 
 ### Encryption and decryption transformations
+
+* *K* denotes a set called the Key space.
+
+Each `e ∈ K` uniquely determines a bijection from *M* to *C*, denoted by *Ee*.
+*Ee* is the *encryption function* or *encryption transformation*. *Ee* must be a bijection
+for the process to be reversed (*decrypted*) and reveal a unique plain text message for each
+cipher text message.
+
+* Each d ∈ K, Dd denotes a bijection from C to M (i.e., C -> M).
+Dd is known as the *decryption function* or *decryption transformation*.
+
+* The process of applying *Ee* to a message `m ∈ M` is referred to as *encryption of m* or encrypting *m*.
+
+* The process of applying *Dd* to a *cipher text message* is referred to as *decrypting c* or the *decryption of c*.
+
+* An *encryption scheme consists* of a set `{Ee: e ∈ K}` of encryption transformations and a corresponding set `{Dd: d ∈ K}`
+of decryption transformations. It has the property that for each `e ∈ K` there is a unique key `d ∈ K` such that `Dd = E^-1e` (encryption is reversed); that is `Dd(Ee(m)) = m` (decrypt the encryption of the message m to receive m)
