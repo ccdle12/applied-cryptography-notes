@@ -38,4 +38,8 @@ Dd is known as the *decryption function* or *decryption transformation*.
 * The process of applying *Dd* to a *cipher text message* is referred to as *decrypting c* or the *decryption of c*.
 
 * An *encryption scheme consists* of a set `{Ee: e ∈ K}` of encryption transformations and a corresponding set `{Dd: d ∈ K}`
-of decryption transformations. It has the property that for each `e ∈ K` there is a unique key `d ∈ K` such that `Dd = E^-1e` (encryption is reversed); that is `Dd(Ee(m)) = m` (decrypt the encryption of the message m to receive m)
+of decryption transformations. It has the property that for each `e ∈ K` there is a unique key `d ∈ K` such that `Dd = E^-1e` (encryption is reversed); that is `Dd(Ee(m)) = m` (decrypt the encryption of the message m to receive m).
+
+* The keys *e* and *d* the previous definition is referred to as a *key pair* and is sometimes denoted as (e, d). *e* and *d* could be the same.
+
+* To *construct* an encryption scheme, it requires one to select a message space *M*, a ciphertext space *C*, a key space *K*, a set of encryption transformations `{Ee: e ∈ K}` and a corresponding set of decryption transformations `{Dd: d ∈ K}`.
