@@ -54,4 +54,27 @@ Why use keys as oppossed to one encryption function and corresponding decryption
 
 Using keys, we can continously change the keys. This is similar to having a pad lock and continously changing the combination.
 
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/transformation-example-1.png)
 
+The above example, Alice encrypts message m1, Alice encrypts `E1(m1) = c3` and sends `c3` to Bob. 
+Bob decrypts `c3` by reversing the arrows, to reveal m1.
+
+## Communication and Participants
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/transformation-example-2.png)
+ 
+* *An entity* is a person, thing or computer that sends, receives or manipulates information. In the above image, Alice and Bob are *entities*.
+
+* *A sender* is the legitimate participants in a two way communication, that is the original and legitimate sender of an encrypted message. In the above image, *Alice* is the sender.
+
+* *A receiver* is the intended receiver of the encrypted message. In the above image, *Bob* is the receiver.
+
+* *An adversary* is a third party that is not part of a two way communication. The adversary is trying to defeat the security system.
+
+## Channels
+* It is a means of communicating from one entity to another.
+
+* *A physically secure channel* or *secure channel* is a channel that is not physically accessible to the *adversary*
+
+* *An unsecure* channel, is one that allows an *adversary* to read, delete or reorder the information/message.
+
+* *A secured* channel, is one where the *adversary* cannot affect the channel.
