@@ -10,28 +10,30 @@ A = {0, 1} is the binary alphabet
 
 The binary alphabet is frequently used, we can encode strings and messages.
 
-
-* *M* denotes a set called the *message space*.
+#### M denotes a set called the *message space*.
 
 The message consists of strings and symbols made up of the *alphabet of definition*.
 An element of *M* is referred to as a *plain text message* or simply *plain text*.
 
-* *C* denotes a set called the *cipher text space*.
+#### C denotes a set called the *cipher text space*.
 
 The cipher text space consists of the *alphabet of definition* that differs from the *message space*.
 An element of the *cipher text space* is known as a *cipher text message*.
 
 ### Encryption and decryption transformations
 
-* *K* denotes a set called the Key space.
+#### K denotes a set called the *Key space*.
 
 Each `e ∈ K` uniquely determines a bijection from *M* to *C*, denoted by *Ee*.
-*Ee* is the *encryption function* or *encryption transformation*. *Ee* must be a bijection
-for the process to be reversed (*decrypted*) and reveal a unique plain text message for each
+
+#### *Ee* is the *encryption function* or *encryption transformation*. 
+
+*Ee* must be a bijection for the process to be reversed (*decrypted*) and reveal a unique plain text message for each
 cipher text message.
 
 * Each d ∈ K, Dd denotes a bijection from C to M (i.e., C -> M).
-Dd is known as the *decryption function* or *decryption transformation*.
+
+#### Dd is known as the *decryption function* or *decryption transformation*.
 
 * The process of applying *Ee* to a message `m ∈ M` is referred to as *encryption of m* or encrypting *m*.
 
