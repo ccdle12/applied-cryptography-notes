@@ -79,4 +79,4 @@ Bob decrypts `c3` by reversing the arrows, to reveal m1.
 
 * *An unsecure* channel, is one that allows an *adversary* to read, delete or reorder the information/message.
 
-* *A secured* channel, is one where the *adversary* cannot affect the channel.
+* *A secured* channel, is one where the *adversary* cannot affect the channel - reorder, delete, insert or read. 
