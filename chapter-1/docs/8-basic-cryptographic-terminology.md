@@ -80,3 +80,24 @@ Bob decrypts `c3` by reversing the arrows, to reveal m1.
 * *An unsecure* channel, is one that allows an *adversary* to read, delete or reorder the information/message.
 
 * *A secured* channel, is one where the *adversary* cannot affect the channel - reorder, delete, insert or read. 
+
+## Security
+
+M (Message space), C (cipher text space), K (key space), {Ee: e ∈ K}, {Dd: d ∈ K} are all publicly known. When Alice and Bob want to communicate they need to only keep a specific key pair secret (e,d). Implementing an extra layer is possible by keeping the transformations secret, but this has proven hard to maintain.
+
+* An encryption scheme is said to be breakable if a third party, without knowledge of (e,d), can recover the *plain text message* from the *cipher text message*, that is within an appropriate timeframe.
+
+A useful timeframe is in regards to, sensitive stock trades - the timeframe could be a matter of minutes or state secrets where the timeframe could be years or decades.
+
+An encryption scheme can be broked by trying all possible keys, this is known as ***exhaustive search*** of the key space. The size of the key space ***K*** should be so large that an ***exhaustive search*** is infeasible.
+
+#### Kerckhoffs’ desiderata - 1883
+```
+1.  the system should be, if not theoretically unbreakable, unbreakable in practice;
+2.  compromise of the system details should not inconvenience the correspondents;
+3.  the key should be rememberable without notes and easily changed;
+4.  the cryptogram should be transmissible by telegraph;
+5.  the encryption apparatus should be portable and operable by a single person; and
+6.  the system should be easy, requiring neither the knowledge of a long list of 
+rules normental strain.
+```
