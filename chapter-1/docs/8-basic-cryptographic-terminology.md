@@ -43,3 +43,15 @@ of decryption transformations. It has the property that for each `e ∈ K` there
 * The keys *e* and *d* the previous definition is referred to as a *key pair* and is sometimes denoted as (e, d). *e* and *d* could be the same.
 
 * To *construct* an encryption scheme, it requires one to select a message space *M*, a ciphertext space *C*, a key space *K*, a set of encryption transformations `{Ee: e ∈ K}` and a corresponding set of decryption transformations `{Dd: d ∈ K}`.
+
+## Achieving Confidentiality
+
+Two parties Alice and Bob, first choose and exchange a key pair secretly `(e, d)`.
+If Alice wants to send a message `m ∈ M` to Bob, she computes `c = Ee(m)` and sends `c` to Bob.
+When Bob receives `c`, decrypts it using `Dd(c) = m` and recovers the original message `m`.
+
+Why use keys as oppossed to one encryption function and corresponding decryption function?
+
+Using keys, we can continously change the keys. This is similar to having a pad lock and continously changing the combination.
+
+
