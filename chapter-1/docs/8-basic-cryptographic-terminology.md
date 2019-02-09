@@ -2,7 +2,7 @@
 
 ### Encryption domains and codomains
 
-* *A* denotes a set called the *alphabet of definition*.
+#### *A* denotes a set called the *alphabet of definition*.
 
 ```
 A = {0, 1} is the binary alphabet
