@@ -101,3 +101,9 @@ An encryption scheme can be broked by trying all possible keys, this is known as
 6.  the system should be easy, requiring neither the knowledge of a long list of 
 rules normental strain.
 ```
+
+#### Cryptology
+
+* *Cryptoanlysis* is the study of mathematical techniques in attempting to break cryptographic security.
+
+Cryptographic techniques are generally divided into generic types: *symmetric-key* and *public-key*.
