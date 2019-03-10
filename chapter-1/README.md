@@ -8,3 +8,4 @@
 6. [Involutions](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/6-involutions.md)
 7. [Permutations](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/7-permutations.md)
 8. [Basic Cryptographic Terminology](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/8-basic-cryptographic-terminology.md)
+9. [Symmetric Key Encryption](https://github.com/ccdle12/applied-cryptography-notes/blob/master/chapter-1/docs/9-symmetric-key-encryption.md)
