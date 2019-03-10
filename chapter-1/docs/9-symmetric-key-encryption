@@ -1,1 +1,33 @@
+# Symmetric Key Encryption
 
+## Overview of block ciphers and stream ciphers
+
+For transformations of {Ee: e ∈ K} and {Dd: d ∈ K}. The encryption scheme is a symmetric-key for each pair (e,d) it is "easy" to computationally determine d from e.
+
+A Block Cipher is an encryption scheme that breaks up plaintext messages of a fixed length **t** over an Alphabet of Definition **A** and encrypts each block at a time.
+
+### Subsitution Ciphers
+
+Are Block Ciphers that replace symbols by other symbols.
+
+A is an alphabet of q symbols and M be the set of all strings of length t over A. K is the set of all permutations on the set A. For each e ∈ K an encryption scheme Ee:
+
+```
+Ee(m) = (e(m1)e(m2)···e(mt)) = (c1c2 ···ct) = c
+```
+
+M is the message space m = (m1m2...mt)
+
+For each symbol in tuple t replace it by another symbol in A according to a fixed permutation. To decrypt the cipher text space c = (c1c2...ct) we need to compute the inverse permutation d = e^-1 
+
+```
+Dd(c) = (d(c1)d(c2)···d(ct)) = (m1m2 ···mt) = m.
+```
+
+Using the key space of the English Alphabet:
+
+```
+26! ≈ 4 × 1026
+```
+
+Although even though the key space is large. The distribution of letter frequency is uniform. The letter 'E' is the most common letter, by viewing the letter frequency we can determine the secret d (the key).
