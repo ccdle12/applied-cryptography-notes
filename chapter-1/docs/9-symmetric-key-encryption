@@ -31,3 +31,5 @@ Using the key space of the English Alphabet:
 ```
 
 Although even though the key space is large. The distribution of letter frequency is uniform. The letter 'E' is the most common letter, by viewing the letter frequency we can determine the secret d (the key).
+
+#TODO: CONTINUE FROM PG.18 "HOMOPHONIC SUBSTITUTION CIPHERS"
