@@ -27,7 +27,7 @@ Dd(c) = (d(c1)d(c2)···d(ct)) = (m1m2 ···mt) = m.
 Using the key space of the English Alphabet:
 
 ```
-26! ≈ 4 × 1026
+26! ≈ 4 × 10^26
 ```
 
 Although even though the key space is large. The distribution of letter frequency is uniform. The letter 'E' is the most common letter, by viewing the letter frequency we can determine the secret d (the key).
