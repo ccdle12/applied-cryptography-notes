@@ -32,4 +32,27 @@ Using the key space of the English Alphabet:
 
 Although even though the key space is large. The distribution of letter frequency is uniform. The letter 'E' is the most common letter, by viewing the letter frequency we can determine the secret d (the key).
 
-#TODO: CONTINUE FROM PG.18 "HOMOPHONIC SUBSTITUTION CIPHERS"
+### Polyalphabetic Subtition Ciphers
+
+A substitution cipher that consists of...
+
+* A key space K that consists of ordered sets of permutations `(p1, p2... pt)`, each permuation is defined on a set A.
+* Encryption of a message `m = (m1m2 ...mt)` is performed under the key `e = (p1,p2,... ,pt)`. The encryption scheme is `Ee(m) = (p1(m1)p2(m2) · · · pt(mt))` a permutation of `pi` on each message space `mi`.
+* Decryption is associated with the permutations `(p1, p2... pt)`, therefore `d = (p1^-1, p2^-1... pt^-1)`
+
+Example
+```
+Let A = {A,B,C,... ,X,Y,Z}
+t = 3
+e = (p1, p2, p3)
+
+* t is the length of each block
+* p1 will be a shift by 3 places to the right
+* p2 will be a shift by 7 places to the right
+* p3 will be a shift by 10 places to the right
+
+m =         THI SCI PHE RIS CER TAI NLY NOT SEC URE
+c = Ee(m) = WOS VJS SOO UPC FLB WHS QSI QVD VLM XYO.
+```
+
+Polyalphabetic substitution ciphers have the advantage of hiding uniform distribution due to the different permutations. For example O has been shifted to E and H. Although if the length t is know, it becomes easy to view the distribution by looking at each t, block of symbols.
