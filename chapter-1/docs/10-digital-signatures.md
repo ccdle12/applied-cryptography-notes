@@ -10,4 +10,4 @@ It is a means for an individual to bind their identity to a piece of information
 * *Va* is the verification transformation from the set M x S to the set *{true, false}*. *Va* is called a verification transformation for A's signature. It is publicly  known and used by other entites to verfiy signatures created by A.
 
 
-![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/transformation-example-1.png)
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/signature-transformation-1.png)
