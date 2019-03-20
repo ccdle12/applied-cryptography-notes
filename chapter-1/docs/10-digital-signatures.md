@@ -9,3 +9,5 @@ It is a means for an individual to bind their identity to a piece of information
 * *Sa* is the transformation from the message set *M* to the signature set *S*, and it is called the *signing transformation* for entity *A*. The transformation is kept a secret by A and is used to create signatures for messages *M*.
 * *Va* is the verification transformation from the set M x S to the set *{true, false}*. *Va* is called a verification transformation for A's signature. It is publicly  known and used by other entites to verfiy signatures created by A.
 
+
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/transformation-example-1.png)
