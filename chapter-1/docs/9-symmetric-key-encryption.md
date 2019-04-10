@@ -1,5 +1,11 @@
 # Symmetric Key Encryption
 
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/symmetric-key-encryption-1.png)
+
+Symmetric key encryption can be understood through the problem of the *key distribution problem*. 
+
+For Alice and Bob to be able to communicate securely, they need to both agree on an encryption key, *e* and share the encryption key securely. From there a decryption key *d* can be derived from *e*, allowing cipher text to be decrypted. It's important to note that both the encryption key *e* and decryption key *d* MUST be kept secret. Alice and Bob can exchange cipher text on an unsecured channel and decrypt the cipher text using the secret decryption key.
+
 ## Overview of block ciphers and stream ciphers
 
 For transformations of {Ee: e ∈ K} and {Dd: d ∈ K}. The encryption scheme is a symmetric-key for each pair (e,d) it is "easy" to computationally determine d from e.
