@@ -19,8 +19,7 @@ If two parties want to communicate *A1* and *A5*, the TTP will generate a key *k
 and sends the encrypted session key according to each entities key held at the TTP. Therefore
 each entity does not need to hold n = n(n-1) / 2 number of keys.
 
-TODO:
-<INSERT IMAGE>
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/ttp-key-management-1.png)
 
 ### Advantages
 
@@ -46,8 +45,7 @@ from the *public file*, encrypts the message using the public key of of *A6* and
 ciphter text over the wire to *A6*.
 
 
-TODO:
-<INSERT IMAGE>
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/public-key-management-1.png)
 
 ```
 Message encryption using A6 Public Key
@@ -71,9 +69,7 @@ m = Dd6(c)
 
 An active adversary who can alter the public file creates a problem in key management.
 
-
-TODO:
-<INSERT IMAGE>
+![alt text](https://raw.githubusercontent.com/ccdle12/applied-cryptography-notes/master/images/pubkey-mim-1.png)
 
 In the image above, the adversary replaces the public key *e6* of entity *A6* in the public file
 with * e* * which is the public key of the adversary.
